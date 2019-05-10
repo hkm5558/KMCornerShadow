@@ -1,0 +1,23 @@
+PODS:
+  - KMCornerShadow (0.1.0)
+  - KMPageControl (0.0.2)
+
+DEPENDENCIES:
+  - KMCornerShadow (from `../`)
+  - KMPageControl
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KMPageControl
+
+EXTERNAL SOURCES:
+  KMCornerShadow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KMCornerShadow: 14be232ad91a32976a9a560b32eb7510ffa12a3a
+  KMPageControl: 97f843081938dab8ea744650f1891cdb13bbc366
+
+PODFILE CHECKSUM: c7ea0835b8bb33df43fe32531533f2312371afc1
+
+COCOAPODS: 1.7.0.beta.3

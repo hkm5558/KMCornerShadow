@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'KMCornerShadow_Example' do
+  pod 'KMCornerShadow', :path => '../'
+  
+  pod 'KMPageControl'
+  
+  target 'KMCornerShadow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

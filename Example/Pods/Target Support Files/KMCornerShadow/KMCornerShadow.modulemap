@@ -1,0 +1,6 @@
+framework module KMCornerShadow {
+  umbrella header "KMCornerShadow-umbrella.h"
+
+  export *
+  module * { export * }
+}

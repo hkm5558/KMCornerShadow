@@ -1,0 +1,6 @@
+framework module Pods_KMCornerShadow_Tests {
+  umbrella header "Pods-KMCornerShadow_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

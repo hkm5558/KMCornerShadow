@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C98DE818AFF8DA9F320E8C848FB78A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		07C0C2777943D2CB4862E4ABA98CDB88 /* KMCornerShadow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ACF7FECBDA8D2CBAEF139B0EE5B7DE /* KMCornerShadow-dummy.m */; };
+		09EA0BF807E01CFDAB7E23B628D007A0 /* Pods-KMCornerShadow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D35752A95D54CD703502AA21A75EED /* Pods-KMCornerShadow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14CE8440B38BDD03DD456AF68454450C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		27ABC2EB8A172B28C2E040EB00390645 /* Pods-KMCornerShadow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB2734FE913426D6CF3B6CA83F407A9 /* Pods-KMCornerShadow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		391F3A35CC1D45FAED764C4B40753D9A /* KMCornerShadow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC69A6C34754638A3AEE8FD3D8D6923 /* KMCornerShadow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD00999275375DC4C903E4C6F98D075 /* Pods-KMCornerShadow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6131F344292F06A80A18AD60700097 /* Pods-KMCornerShadow_Tests-dummy.m */; };
+		81FB9A3CE629FAFF38984E31A1F1B49B /* KMPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1FE26BBAF3AABFBEFB316B9EAFEFA0 /* KMPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89F8352C50D358C4FBB81F21E0636066 /* KMPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CFFF3CCB37B8956F772C60F86417BB /* KMPageControl.swift */; };
+		8B9591A3228569F000EF6BEF /* UIView+KMCornerShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9591A2228569F000EF6BEF /* UIView+KMCornerShadow.swift */; };
+		92B33B29C08A62471402E3F5680E8692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		9FBDCE5694D07AAF5067C53D89CDB029 /* Pods-KMCornerShadow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A425A806C8B886A65B81CDE801B36E51 /* Pods-KMCornerShadow_Example-dummy.m */; };
+		BCDE286A3512D374EA75628F5B996F78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		CDD96C9854F68C838E5E520EFEBE4AAF /* KMPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BE49E97538144DB475B9CB9A4C0F8 /* KMPageControl-dummy.m */; };
+		D2D5537963D93CD8A2FC28B898C80967 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39EA3FAC5DE7433A5166417E744E7EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC6F071E8C78811E41CAB6C972F0DD1;
+			remoteInfo = "Pods-KMCornerShadow_Example";
+		};
+		F0846B8EE7EC61C40AB40B0BADC86ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202C6B004F374523FD68F5050DE1B755;
+			remoteInfo = KMCornerShadow;
+		};
+		F3886CBE5AB45B4FD42A49D1929152FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 294D23563EF604101629225604E048BF;
+			remoteInfo = KMPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041BE49E97538144DB475B9CB9A4C0F8 /* KMPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMPageControl-dummy.m"; sourceTree = "<group>"; };
+		1F997900DF14890A9305B54C5CCEF365 /* KMPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KMPageControl-Info.plist"; sourceTree = "<group>"; };
+		25ACF7FECBDA8D2CBAEF139B0EE5B7DE /* KMCornerShadow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMCornerShadow-dummy.m"; sourceTree = "<group>"; };
+		29544959699ADDBF4B0E00057863D827 /* Pods-KMCornerShadow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMCornerShadow_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3213053210F133960E57F08A77061D0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3E0138AA835C30E9E5556EAA468347EB /* KMCornerShadow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMCornerShadow.xcconfig; sourceTree = "<group>"; };
+		407ED73FE79DD253ECD28FD628359750 /* Pods-KMCornerShadow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KMCornerShadow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		442DF95B236E73E80B5107AB7103005E /* KMCornerShadow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KMCornerShadow.modulemap; sourceTree = "<group>"; };
+		4FD7D3845BE8A0149700098572307490 /* Pods-KMCornerShadow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMCornerShadow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		516A2CBB83C1A7EFFA48CB69D501826F /* Pods-KMCornerShadow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KMCornerShadow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F3D5C0AAF9F99CB6D3F528FE9236104 /* Pods-KMCornerShadow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMCornerShadow_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6556E79E45A7AB6B4263E7781C0689CE /* Pods-KMCornerShadow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMCornerShadow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		66A0D26C23D447EDED867179C49A5C4B /* KMCornerShadow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KMCornerShadow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6A59EC968B84C0D655B1B2A3CF0C41C8 /* KMCornerShadow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KMCornerShadow-Info.plist"; sourceTree = "<group>"; };
+		7A4FB69E31843F5A759EE41E0FD2D4F4 /* KMCornerShadow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMCornerShadow-prefix.pch"; sourceTree = "<group>"; };
+		81592F3E2965AA2B326847138D947F3D /* Pods-KMCornerShadow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KMCornerShadow_Tests.modulemap"; sourceTree = "<group>"; };
+		81AE2CF68577EC6C6AF9391BA63951F9 /* KMPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMPageControl.xcconfig; sourceTree = "<group>"; };
+		84C30580FD48B5AA90CB7F159106F59A /* Pods-KMCornerShadow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMCornerShadow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B9591A2228569F000EF6BEF /* UIView+KMCornerShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+KMCornerShadow.swift"; path = "KMCornerShadow/Classes/UIView+KMCornerShadow.swift"; sourceTree = "<group>"; };
+		903F413A4E98C5F46F74B4878967B266 /* KMPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KMPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9396FEFCE555D4EF78CEE20A96521C14 /* Pods-KMCornerShadow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMCornerShadow_Tests-Info.plist"; sourceTree = "<group>"; };
+		9C1FE26BBAF3AABFBEFB316B9EAFEFA0 /* KMPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMPageControl-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A425A806C8B886A65B81CDE801B36E51 /* Pods-KMCornerShadow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KMCornerShadow_Example-dummy.m"; sourceTree = "<group>"; };
+		B6F19D770572E98795EDA611013F59B7 /* Pods-KMCornerShadow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMCornerShadow_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B8CFFF3CCB37B8956F772C60F86417BB /* KMPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMPageControl.swift; path = KMPageControl/Classes/KMPageControl.swift; sourceTree = "<group>"; };
+		C5D35752A95D54CD703502AA21A75EED /* Pods-KMCornerShadow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KMCornerShadow_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C6104D451267413EF7E08810D0F006EA /* Pods-KMCornerShadow_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMCornerShadow_Example-Info.plist"; sourceTree = "<group>"; };
+		CA6131F344292F06A80A18AD60700097 /* Pods-KMCornerShadow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KMCornerShadow_Tests-dummy.m"; sourceTree = "<group>"; };
+		CB4730B535A4F69EFAB5AB6DD5E2FD6A /* KMPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMPageControl-prefix.pch"; sourceTree = "<group>"; };
+		D1590E184FEF062B28E0D5854B94A4AE /* Pods-KMCornerShadow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMCornerShadow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B4D3EB029F79EFF0B293CD2E40A830 /* Pods-KMCornerShadow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KMCornerShadow_Example.modulemap"; sourceTree = "<group>"; };
+		DDB2734FE913426D6CF3B6CA83F407A9 /* Pods-KMCornerShadow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KMCornerShadow_Example-umbrella.h"; sourceTree = "<group>"; };
+		DDC69A6C34754638A3AEE8FD3D8D6923 /* KMCornerShadow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMCornerShadow-umbrella.h"; sourceTree = "<group>"; };
+		E4BFF9EC0E8109C23953080A932FECE3 /* KMPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KMPageControl.modulemap; sourceTree = "<group>"; };
+		E874C08FE5F8C5F4F898D051DFE273F0 /* Pods_KMCornerShadow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMCornerShadow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BCF0E3453487FF2BC24D5DDF012832 /* Pods_KMCornerShadow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMCornerShadow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE82BB84E545347199E9E897CE089AA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FF2A58A3E51C9CE264C7665C2E255CBF /* KMCornerShadow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KMCornerShadow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365B050FC64C483F87604782033512A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B33B29C08A62471402E3F5680E8692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CEF7C41676DF3ED3E25AE4F79BCAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5537963D93CD8A2FC28B898C80967 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F721C352C7D831F52ECB3E7E9443F757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CE8440B38BDD03DD456AF68454450C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1A167D832988D2E3F3AEC4C75781D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C98DE818AFF8DA9F320E8C848FB78A /* Foundation.framework in Frameworks */,
+				BCDE286A3512D374EA75628F5B996F78 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D4F07EFB2AE32C99370F20D31A53B24 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D183D915D4468B70FF414629129F057 /* KMCornerShadow */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		421F2FB535E6483E4BC61B3B27F745BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2A58A3E51C9CE264C7665C2E255CBF /* KMCornerShadow.framework */,
+				903F413A4E98C5F46F74B4878967B266 /* KMPageControl.framework */,
+				E874C08FE5F8C5F4F898D051DFE273F0 /* Pods_KMCornerShadow_Example.framework */,
+				E8BCF0E3453487FF2BC24D5DDF012832 /* Pods_KMCornerShadow_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F0B9626104BCC828571D8C5B938E4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBE5DEA56BA361D5D7967A4F64F73B24 /* KMPageControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6580C48D3D1F927A06467B5B36F6A2EF /* Pods-KMCornerShadow_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				81592F3E2965AA2B326847138D947F3D /* Pods-KMCornerShadow_Tests.modulemap */,
+				516A2CBB83C1A7EFFA48CB69D501826F /* Pods-KMCornerShadow_Tests-acknowledgements.markdown */,
+				84C30580FD48B5AA90CB7F159106F59A /* Pods-KMCornerShadow_Tests-acknowledgements.plist */,
+				CA6131F344292F06A80A18AD60700097 /* Pods-KMCornerShadow_Tests-dummy.m */,
+				9396FEFCE555D4EF78CEE20A96521C14 /* Pods-KMCornerShadow_Tests-Info.plist */,
+				C5D35752A95D54CD703502AA21A75EED /* Pods-KMCornerShadow_Tests-umbrella.h */,
+				D1590E184FEF062B28E0D5854B94A4AE /* Pods-KMCornerShadow_Tests.debug.xcconfig */,
+				4FD7D3845BE8A0149700098572307490 /* Pods-KMCornerShadow_Tests.release.xcconfig */,
+			);
+			name = "Pods-KMCornerShadow_Tests";
+			path = "Target Support Files/Pods-KMCornerShadow_Tests";
+			sourceTree = "<group>";
+		};
+		9D183D915D4468B70FF414629129F057 /* KMCornerShadow */ = {
+			isa = PBXGroup;
+			children = (
+				8B9591A2228569F000EF6BEF /* UIView+KMCornerShadow.swift */,
+				9DD9A0BF0576001AF209FFC9D1E0878C /* Pod */,
+				A7A7BC9A3F3C3326C43CBE40FD812551 /* Support Files */,
+			);
+			name = KMCornerShadow;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9DD9A0BF0576001AF209FFC9D1E0878C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				66A0D26C23D447EDED867179C49A5C4B /* KMCornerShadow.podspec */,
+				3213053210F133960E57F08A77061D0F /* LICENSE */,
+				EE82BB84E545347199E9E897CE089AA5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A7A7BC9A3F3C3326C43CBE40FD812551 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				442DF95B236E73E80B5107AB7103005E /* KMCornerShadow.modulemap */,
+				3E0138AA835C30E9E5556EAA468347EB /* KMCornerShadow.xcconfig */,
+				25ACF7FECBDA8D2CBAEF139B0EE5B7DE /* KMCornerShadow-dummy.m */,
+				6A59EC968B84C0D655B1B2A3CF0C41C8 /* KMCornerShadow-Info.plist */,
+				7A4FB69E31843F5A759EE41E0FD2D4F4 /* KMCornerShadow-prefix.pch */,
+				DDC69A6C34754638A3AEE8FD3D8D6923 /* KMCornerShadow-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KMCornerShadow";
+			sourceTree = "<group>";
+		};
+		C60EAF29DD79A7459ECE598F8DA89FC6 /* Pods-KMCornerShadow_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D3B4D3EB029F79EFF0B293CD2E40A830 /* Pods-KMCornerShadow_Example.modulemap */,
+				407ED73FE79DD253ECD28FD628359750 /* Pods-KMCornerShadow_Example-acknowledgements.markdown */,
+				6556E79E45A7AB6B4263E7781C0689CE /* Pods-KMCornerShadow_Example-acknowledgements.plist */,
+				A425A806C8B886A65B81CDE801B36E51 /* Pods-KMCornerShadow_Example-dummy.m */,
+				B6F19D770572E98795EDA611013F59B7 /* Pods-KMCornerShadow_Example-frameworks.sh */,
+				C6104D451267413EF7E08810D0F006EA /* Pods-KMCornerShadow_Example-Info.plist */,
+				DDB2734FE913426D6CF3B6CA83F407A9 /* Pods-KMCornerShadow_Example-umbrella.h */,
+				5F3D5C0AAF9F99CB6D3F528FE9236104 /* Pods-KMCornerShadow_Example.debug.xcconfig */,
+				29544959699ADDBF4B0E00057863D827 /* Pods-KMCornerShadow_Example.release.xcconfig */,
+			);
+			name = "Pods-KMCornerShadow_Example";
+			path = "Target Support Files/Pods-KMCornerShadow_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3D4F07EFB2AE32C99370F20D31A53B24 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				42F0B9626104BCC828571D8C5B938E4B /* Pods */,
+				421F2FB535E6483E4BC61B3B27F745BD /* Products */,
+				DF89F049FE397585EFFB1FE91DC12A9E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DBE5DEA56BA361D5D7967A4F64F73B24 /* KMPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				B8CFFF3CCB37B8956F772C60F86417BB /* KMPageControl.swift */,
+				E323FCF3476F34D9DD72273544A72D85 /* Support Files */,
+			);
+			path = KMPageControl;
+			sourceTree = "<group>";
+		};
+		DF89F049FE397585EFFB1FE91DC12A9E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C60EAF29DD79A7459ECE598F8DA89FC6 /* Pods-KMCornerShadow_Example */,
+				6580C48D3D1F927A06467B5B36F6A2EF /* Pods-KMCornerShadow_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E323FCF3476F34D9DD72273544A72D85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4BFF9EC0E8109C23953080A932FECE3 /* KMPageControl.modulemap */,
+				81AE2CF68577EC6C6AF9391BA63951F9 /* KMPageControl.xcconfig */,
+				041BE49E97538144DB475B9CB9A4C0F8 /* KMPageControl-dummy.m */,
+				1F997900DF14890A9305B54C5CCEF365 /* KMPageControl-Info.plist */,
+				CB4730B535A4F69EFAB5AB6DD5E2FD6A /* KMPageControl-prefix.pch */,
+				9C1FE26BBAF3AABFBEFB316B9EAFEFA0 /* KMPageControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KMPageControl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6738D922696F87C0412C284EAB437A73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EA0BF807E01CFDAB7E23B628D007A0 /* Pods-KMCornerShadow_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C18E4AA4632B7616EC9A17085C1602D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ABC2EB8A172B28C2E040EB00390645 /* Pods-KMCornerShadow_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7E9909EC2502380791BA2AF37A50BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FB9A3CE629FAFF38984E31A1F1B49B /* KMPageControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDD0D233CE07E5061A08A0E2041F215 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391F3A35CC1D45FAED764C4B40753D9A /* KMCornerShadow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		202C6B004F374523FD68F5050DE1B755 /* KMCornerShadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9101D2E050EAF8E22661D51F1D7C698 /* Build configuration list for PBXNativeTarget "KMCornerShadow" */;
+			buildPhases = (
+				EEDD0D233CE07E5061A08A0E2041F215 /* Headers */,
+				934FDDF18AF0F8E74F8EE13F029BB52C /* Sources */,
+				F721C352C7D831F52ECB3E7E9443F757 /* Frameworks */,
+				A360955ABBFDCF394F52E1E231C17254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMCornerShadow;
+			productName = KMCornerShadow;
+			productReference = FF2A58A3E51C9CE264C7665C2E255CBF /* KMCornerShadow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		294D23563EF604101629225604E048BF /* KMPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06B33960C0CCC029E9DEF7E3AD18DF8 /* Build configuration list for PBXNativeTarget "KMPageControl" */;
+			buildPhases = (
+				9B7E9909EC2502380791BA2AF37A50BC /* Headers */,
+				58A0AFA413C59E4CC67C78B41833672F /* Sources */,
+				FBE1A167D832988D2E3F3AEC4C75781D /* Frameworks */,
+				22AE52F22AA4343CBCF0360B04BBA861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMPageControl;
+			productName = KMPageControl;
+			productReference = 903F413A4E98C5F46F74B4878967B266 /* KMPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8FC6F071E8C78811E41CAB6C972F0DD1 /* Pods-KMCornerShadow_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104C6173933B8335B26BF27B338EC0EB /* Build configuration list for PBXNativeTarget "Pods-KMCornerShadow_Example" */;
+			buildPhases = (
+				7C18E4AA4632B7616EC9A17085C1602D /* Headers */,
+				9D20DB9171F94A3A1E46F726092C6946 /* Sources */,
+				365B050FC64C483F87604782033512A9 /* Frameworks */,
+				E70726FF81D15BE8488603AC45510545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79D6288F06B2239FF27D700B4D49C64D /* PBXTargetDependency */,
+				249FE3129E640600D2B0C62560459E5B /* PBXTargetDependency */,
+			);
+			name = "Pods-KMCornerShadow_Example";
+			productName = "Pods-KMCornerShadow_Example";
+			productReference = E874C08FE5F8C5F4F898D051DFE273F0 /* Pods_KMCornerShadow_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB3E642ABE7ACD34F9729C636A53F7CF /* Pods-KMCornerShadow_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B14682B2E62538250E99EC88D64CF7F /* Build configuration list for PBXNativeTarget "Pods-KMCornerShadow_Tests" */;
+			buildPhases = (
+				6738D922696F87C0412C284EAB437A73 /* Headers */,
+				866BAF9E168865FD3A881B3337BB85A5 /* Sources */,
+				F3CEF7C41676DF3ED3E25AE4F79BCAAF /* Frameworks */,
+				2A58DB26A61E3C7DDDE2C571D7E2031C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1474D6597E1A41BC46D0CA16332F592 /* PBXTargetDependency */,
+			);
+			name = "Pods-KMCornerShadow_Tests";
+			productName = "Pods-KMCornerShadow_Tests";
+			productReference = E8BCF0E3453487FF2BC24D5DDF012832 /* Pods_KMCornerShadow_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					202C6B004F374523FD68F5050DE1B755 = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 421F2FB535E6483E4BC61B3B27F745BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202C6B004F374523FD68F5050DE1B755 /* KMCornerShadow */,
+				294D23563EF604101629225604E048BF /* KMPageControl */,
+				8FC6F071E8C78811E41CAB6C972F0DD1 /* Pods-KMCornerShadow_Example */,
+				AB3E642ABE7ACD34F9729C636A53F7CF /* Pods-KMCornerShadow_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22AE52F22AA4343CBCF0360B04BBA861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A58DB26A61E3C7DDDE2C571D7E2031C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A360955ABBFDCF394F52E1E231C17254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70726FF81D15BE8488603AC45510545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58A0AFA413C59E4CC67C78B41833672F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD96C9854F68C838E5E520EFEBE4AAF /* KMPageControl-dummy.m in Sources */,
+				89F8352C50D358C4FBB81F21E0636066 /* KMPageControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866BAF9E168865FD3A881B3337BB85A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD00999275375DC4C903E4C6F98D075 /* Pods-KMCornerShadow_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934FDDF18AF0F8E74F8EE13F029BB52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0C2777943D2CB4862E4ABA98CDB88 /* KMCornerShadow-dummy.m in Sources */,
+				8B9591A3228569F000EF6BEF /* UIView+KMCornerShadow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D20DB9171F94A3A1E46F726092C6946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBDCE5694D07AAF5067C53D89CDB029 /* Pods-KMCornerShadow_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		249FE3129E640600D2B0C62560459E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KMPageControl;
+			target = 294D23563EF604101629225604E048BF /* KMPageControl */;
+			targetProxy = F3886CBE5AB45B4FD42A49D1929152FA /* PBXContainerItemProxy */;
+		};
+		79D6288F06B2239FF27D700B4D49C64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KMCornerShadow;
+			target = 202C6B004F374523FD68F5050DE1B755 /* KMCornerShadow */;
+			targetProxy = F0846B8EE7EC61C40AB40B0BADC86ADD /* PBXContainerItemProxy */;
+		};
+		A1474D6597E1A41BC46D0CA16332F592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KMCornerShadow_Example";
+			target = 8FC6F071E8C78811E41CAB6C972F0DD1 /* Pods-KMCornerShadow_Example */;
+			targetProxy = 39EA3FAC5DE7433A5166417E744E7EDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B71C5CE92DA24798F559CCD32ED6D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1590E184FEF062B28E0D5854B94A4AE /* Pods-KMCornerShadow_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMCornerShadow_Tests/Pods-KMCornerShadow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMCornerShadow_Tests/Pods-KMCornerShadow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A658376CE877ABF761E06068D572F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD7D3845BE8A0149700098572307490 /* Pods-KMCornerShadow_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMCornerShadow_Tests/Pods-KMCornerShadow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMCornerShadow_Tests/Pods-KMCornerShadow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		341DCF49188489123971AC8B12B6E8E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0138AA835C30E9E5556EAA468347EB /* KMCornerShadow.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMCornerShadow/KMCornerShadow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMCornerShadow/KMCornerShadow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMCornerShadow/KMCornerShadow.modulemap";
+				PRODUCT_MODULE_NAME = KMCornerShadow;
+				PRODUCT_NAME = KMCornerShadow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4688133A75CC00B7E4BC85FA36EAEB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29544959699ADDBF4B0E00057863D827 /* Pods-KMCornerShadow_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMCornerShadow_Example/Pods-KMCornerShadow_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMCornerShadow_Example/Pods-KMCornerShadow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7027F11B80771A2017114362A7F6DCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0138AA835C30E9E5556EAA468347EB /* KMCornerShadow.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMCornerShadow/KMCornerShadow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMCornerShadow/KMCornerShadow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMCornerShadow/KMCornerShadow.modulemap";
+				PRODUCT_MODULE_NAME = KMCornerShadow;
+				PRODUCT_NAME = KMCornerShadow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C219B402AFBAC6D3179806447DE0B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81AE2CF68577EC6C6AF9391BA63951F9 /* KMPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMPageControl/KMPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMPageControl/KMPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMPageControl/KMPageControl.modulemap";
+				PRODUCT_MODULE_NAME = KMPageControl;
+				PRODUCT_NAME = KMPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ADA30036CC475C0B4C9C0637B59BD845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81AE2CF68577EC6C6AF9391BA63951F9 /* KMPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMPageControl/KMPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMPageControl/KMPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMPageControl/KMPageControl.modulemap";
+				PRODUCT_MODULE_NAME = KMPageControl;
+				PRODUCT_NAME = KMPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5DB551BA70281A0C95B1E0B8FB938D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3D5C0AAF9F99CB6D3F528FE9236104 /* Pods-KMCornerShadow_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KMCornerShadow_Example/Pods-KMCornerShadow_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KMCornerShadow_Example/Pods-KMCornerShadow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B14682B2E62538250E99EC88D64CF7F /* Build configuration list for PBXNativeTarget "Pods-KMCornerShadow_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B71C5CE92DA24798F559CCD32ED6D2C /* Debug */,
+				1A658376CE877ABF761E06068D572F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104C6173933B8335B26BF27B338EC0EB /* Build configuration list for PBXNativeTarget "Pods-KMCornerShadow_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DB551BA70281A0C95B1E0B8FB938D7 /* Debug */,
+				4688133A75CC00B7E4BC85FA36EAEB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06B33960C0CCC029E9DEF7E3AD18DF8 /* Build configuration list for PBXNativeTarget "KMPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C219B402AFBAC6D3179806447DE0B11 /* Debug */,
+				ADA30036CC475C0B4C9C0637B59BD845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9101D2E050EAF8E22661D51F1D7C698 /* Build configuration list for PBXNativeTarget "KMCornerShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341DCF49188489123971AC8B12B6E8E8 /* Debug */,
+				7027F11B80771A2017114362A7F6DCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
