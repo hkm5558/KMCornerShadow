@@ -1,5 +1,5 @@
 # KMCornerShadow
-<img src="https://img.shields.io/badge/Swift-4.2-orange.svg" /> [![CI Status](https://img.shields.io/travis/km/KMCornerShadow.svg?style=flat)](https://travis-ci.org/km/KMCornerShadow) [![Version](https://img.shields.io/cocoapods/v/KMCornerShadow.svg?style=flat)](https://cocoapods.org/pods/KMCornerShadow) [![License](https://img.shields.io/cocoapods/l/KMCornerShadow.svg?style=flat)](https://cocoapods.org/pods/KMCornerShadow) [![Platform](https://img.shields.io/cocoapods/p/KMCornerShadow.svg?style=flat)](https://cocoapods.org/pods/KMCornerShadow)
+<img src="https://img.shields.io/badge/Swift-5.0-orange.svg" /> [![CI Status](https://img.shields.io/travis/km/KMCornerShadow.svg?style=flat)](https://travis-ci.org/km/KMCornerShadow) [![Version](https://img.shields.io/cocoapods/v/KMCornerShadow.svg?style=flat)](https://cocoapods.org/pods/KMCornerShadow) [![License](https://img.shields.io/cocoapods/l/KMCornerShadow.svg?style=flat)](https://cocoapods.org/pods/KMCornerShadow) [![Platform](https://img.shields.io/cocoapods/p/KMCornerShadow.svg?style=flat)](https://cocoapods.org/pods/KMCornerShadow)
 
 设置圆角和阴影同时显示
 

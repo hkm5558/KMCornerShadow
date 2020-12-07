@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KMCornerShadow'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '实现圆角和阴影并存'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/hkm5558/KMCornerShadow.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.swift_version    = '4.2'
+  s.swift_version    = '5.0'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'KMCornerShadow/Classes/**/*'
