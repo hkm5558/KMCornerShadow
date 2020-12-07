@@ -1,7 +1,7 @@
 # KMCornerShadow
 <img src="https://img.shields.io/badge/Swift-4.2-orange.svg" /> [![CI Status](https://img.shields.io/travis/km/KMCornerShadow.svg?style=flat)](https://travis-ci.org/km/KMCornerShadow) [![Version](https://img.shields.io/cocoapods/v/KMCornerShadow.svg?style=flat)](https://cocoapods.org/pods/KMCornerShadow) [![License](https://img.shields.io/cocoapods/l/KMCornerShadow.svg?style=flat)](https://cocoapods.org/pods/KMCornerShadow) [![Platform](https://img.shields.io/cocoapods/p/KMCornerShadow.svg?style=flat)](https://cocoapods.org/pods/KMCornerShadow)
 
-实现圆角和阴影并存
+设置圆角和阴影同时显示
 
 ## Gif
 
@@ -19,7 +19,7 @@ $ gem install cocoapods
 To integrate KMCornerShadow into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 In your Podfile
->`pod 'KMCornerShadow'`
+>`pod 'KMCornerShadow', '~> 0.0.2'`
 
 Then, run the following command:
 

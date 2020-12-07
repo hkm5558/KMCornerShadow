@@ -112,11 +112,14 @@ extension KMBannerView: UICollectionViewDelegate, UICollectionViewDataSource, UI
         cell.imageView.image = item.image
         
         if let color = item.color {
-//            cell.imageView.backgroundColor = color
+            cell.imageView.backgroundColor = color
+            cell.imageView.layer.cornerRadius = 8
             cell.imageView.layer.shadowColor = color.cgColor
-            cell.imageView.km_ApplyCornerShadow()
+            cell.imageView.layer.shadowOffset = .init(width: 3, height: 8)
+            cell.imageView.layer.shadowRadius = 8
+            cell.imageView.layer.shadowOpacity = 0.2
+            cell.imageView.km_ApplyShadow()
         }
-        
         
         if let url = URL(string: item.url ?? "") {
             // download image from url
@@ -134,5 +137,11 @@ extension KMBannerView: UICollectionViewDelegate, UICollectionViewDataSource, UI
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Did Tap Index \(indexPath.row)")
+    }
+}
+public extension UIScrollView {
+    var pageNumber: Int {
+        get { return Int(contentOffset.x / frame.size.width) }
+        set { contentOffset.x = frame.size.width * CGFloat(newValue) }
     }
 }

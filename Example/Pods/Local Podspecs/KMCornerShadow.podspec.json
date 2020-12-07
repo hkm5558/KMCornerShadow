@@ -1,22 +1,25 @@
 {
   "name": "KMCornerShadow",
-  "version": "0.1.0",
-  "summary": "A short description of KMCornerShadow.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/km/KMCornerShadow",
+  "version": "0.0.1",
+  "summary": "实现圆角和阴影并存",
+  "description": "实现圆角和阴影并存",
+  "homepage": "https://github.com/hkm5558/KMCornerShadow",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "km": "huangkm@szclou.com"
+    "hkm5558": "szhuangkm@163.com"
   },
   "source": {
-    "git": "https://github.com/km/KMCornerShadow.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/hkm5558/KMCornerShadow.git",
+    "tag": "0.0.1"
   },
+  "swift_versions": "4.2",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "KMCornerShadow/Classes/**/*"
+  "source_files": "KMCornerShadow/Classes/**/*",
+  "frameworks": "UIKit",
+  "swift_version": "4.2"
 }
